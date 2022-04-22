@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Авторизация</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220206223601">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<div class="menu__logo"><a href="index.html"><img src="img/icons/Logo.svg" alt="Logo Application Management System"></a></div>
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Справочники</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Заявки ТС</a></li>
+							<li class="menu__item"><a href="" class="menu__link"><img src="img/icons/gear.svg" alt="gear"></a></li>
+							<li class="menu__item"><a href="cabinet.html" class="menu__link"><img src="img/icons/person.svg" alt="person"></a></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="authorization">
+				<div class="authorization__container">
+					<h2 class="authorization__title">Авторизация</h2>
+					<div class="authorization__fields">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Логин" class="authorization__login">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Пароль" class="authorization__password">
+					</div>
+					<button class="authorization__botton">Зайти</button>
+			</section>
+	</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__menu menu-footer">
+				<nav class="menu__body-footer">
+					<div class="menu__logo"><a href="index.html"><img src="img/icons/Logo.svg" alt="Logo Application Management System"></a></div>
+					<ul class="menu__list-footer">
+						<li class="menu__item"><a href="" class="menu__link">Справочники</a></li>
+						<li class="menu__item"><a href="" class="menu__link">Заявки ТС</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup gaga">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><span></span></button>
+				<div class="popup__text">
+					<div class="edit-element">
+						<div class="edit-element__leble">
+							Элемент 1
+						</div>
+						<div class="edit-element__fields">
+							<div class="edit-element__field field">
+								<div class="field__text">Поле 1</div>
+								<input class="field__input" type="text" name="field" id="">
+							</div>
+							<div class="edit-element__field field">
+								<div class="field__text">Поле 2</div>
+								<input class="field__input" type="text" name="field" id="">
+							</div>
+							<div class="edit-element__field field">
+								<div class="field__text">Поле 3</div>
+								<input class="field__input" type="text" name="field" id="">
+							</div>
+						</div>
+						<div class="edit-element__functions functions">
+							<button class="functions__save">Сохранить</button>
+							<button class="functions__cancel">Отменить</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="popup popup_popup">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			парва
+		</div>
+	</div>
+</div>
+<div class="popup popup_cabinet-change">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			vgdsfg
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220206223601"></script>
+</body>
+
+</html>
